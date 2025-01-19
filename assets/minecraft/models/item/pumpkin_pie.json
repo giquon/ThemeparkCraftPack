@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/pumpkin_pie"
+	},
+	"overrides": [
+        {
+            "model": "custom/disney/food/dole_whip",
+            "predicate": {
+                "custom_model_data": 1
+            }
+        }
+	]
+}
