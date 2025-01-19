@@ -1,0 +1,14 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/stick"
+	},
+	"overrides": [
+        {
+            "model": "custom/disney/merchandise/wand",
+            "predicate": {
+                "custom_model_data": 1
+            }
+        }
+	]
+}
