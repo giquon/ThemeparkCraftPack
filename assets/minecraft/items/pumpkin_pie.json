@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/pumpkin_pie"
+        },
+        "cases": [
+            {
+                "when": "dole-whip",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/food/dole_whip"
+                }
+            }
+        ]
+    } 
+}
