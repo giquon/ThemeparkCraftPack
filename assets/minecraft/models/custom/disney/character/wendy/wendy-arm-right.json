@@ -1,0 +1,7 @@
+{
+	"parent": "custom/general/character/arm-right-thin",
+	"textures": {
+		"0": "item/disney/character/wendy",
+		"particle": "item/disney/character/wendy"
+	}
+}

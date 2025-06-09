@@ -1,0 +1,7 @@
+{
+	"parent": "custom/general/character/leg-left",
+	"textures": {
+		"0": "item/disney/character/michael-darling",
+		"particle": "item/disney/character/michael-darling"
+	}
+}
