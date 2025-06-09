@@ -13,6 +13,13 @@
                     "type": "model",
                     "model": "custom/disney/vehicle/pinocchiodaringjourney"
                 }
+            },
+            {
+                "when": "ppf-vehicle",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/vehicle/ppfvehicle"
+                }
             }
         ]
     } 

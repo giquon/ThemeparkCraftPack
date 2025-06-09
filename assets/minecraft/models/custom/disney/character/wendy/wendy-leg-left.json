@@ -1,0 +1,7 @@
+{
+	"parent": "custom/general/character/leg-left",
+	"textures": {
+		"0": "item/disney/character/wendy",
+		"particle": "item/disney/character/wendy"
+	}
+}

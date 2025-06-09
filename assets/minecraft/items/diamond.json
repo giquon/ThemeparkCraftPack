@@ -1,0 +1,47 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/diamond"
+        },
+        "cases": [
+            {
+                "when": "bed-pink",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/decor/bed-pink"
+                }
+            },
+            {
+                "when": "bed-blue",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/decor/bed-blue"
+                }
+            },
+            {
+                "when": "bed-yellow",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/decor/bed-yellow"
+                }
+            },
+            {
+                "when": "big-ben",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/decor/big-ben"
+                }
+            },
+            {
+                "when": "tower-bridge",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/decor/tower-bridge"
+                }
+            }
+        ]
+    } 
+}

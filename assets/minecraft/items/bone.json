@@ -1,0 +1,96 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/bone"
+        },
+        "cases": [
+            {
+                "when": "wendy-head",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/wendy/wendy-head"
+                }
+            },
+            {
+                "when": "wendy-torso",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/wendy/wendy-torso"
+                }
+            },
+            {
+                "when": "wendy-arm-right",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/wendy/wendy-arm-right"
+                }
+            },
+            {
+                "when": "wendy-arm-left",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/wendy/wendy-arm-left"
+                }
+            },
+            {
+                "when": "wendy-leg-right",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/wendy/wendy-leg-right"
+                }
+            },
+            {
+                "when": "wendy-leg-left",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/wendy/wendy-leg-left"
+                }
+            },
+            {
+                "when": "michael-darling-head",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/michael-darling/michael-darling-head"
+                }
+            },
+            {
+                "when": "michael-darling-torso",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/michael-darling/michael-darling-torso"
+                }
+            },
+            {
+                "when": "michael-darling-arm-right",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/michael-darling/michael-darling-arm-right"
+                }
+            },
+            {
+                "when": "michael-darling-arm-left",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/michael-darling/michael-darling-arm-left"
+                }
+            },
+            {
+                "when": "michael-darling-leg-right",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/michael-darling/michael-darling-leg-right"
+                }
+            },
+            {
+                "when": "michael-darling-leg-left",
+                "model": {
+                    "type": "model",
+                    "model": "custom/disney/character/michael-darling/michael-darling-leg-left"
+                }
+            }
+        ]
+    } 
+}
